@@ -9,7 +9,7 @@ public class SumaArray {
             for (byte j = 0; j < numbers.length; j++) {
                 sum = sum + numbers[i][j];
             }
-            System.out.println("Suma de fila " + (i + 1) + ": " + sum);
+            System.out.println("La suma de la fila " + (i + 1) + " es: " + sum);
         }
     }
 
