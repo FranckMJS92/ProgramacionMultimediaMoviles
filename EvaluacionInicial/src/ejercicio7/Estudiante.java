@@ -13,7 +13,7 @@ public class Estudiante {
         idEstudiante = idEstudianteContador;
     }
 
-   public void esMayorEdad() {
+    public void esMayorEdad() {
         System.out.println(edad >= 18 ? nombre + " es mayor de edad" : nombre + " no es mayor de edad");
     }
 
