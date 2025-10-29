@@ -51,10 +51,7 @@ public class Curso {
 
     @Override
     public String toString() {
-        return "\nCurso : " + nombrecurso + estudiantes;
-        /* for(Estudiante e:estudiantes){
-            System.out.println(e.getNombre() + e.getIdEstudiante() + e.getEdad());
-        }; */
+        return "\nCurso : " + nombrecurso + "\n" + estudiantes; // No se me ocurre como formatearlo con el array dentro
     }
 
 }
