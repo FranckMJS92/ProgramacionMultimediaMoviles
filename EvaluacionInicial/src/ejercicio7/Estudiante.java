@@ -13,8 +13,8 @@ public class Estudiante {
         idEstudiante = idEstudianteContador;
     }
 
-    public boolean esMayorEdad() {
-        return edad >= 18 ? true : false;
+   public void esMayorEdad() {
+        System.out.println(edad >= 18 ? nombre + " es mayor de edad" : nombre + " no es mayor de edad");
     }
 
     public String getNombre() {
