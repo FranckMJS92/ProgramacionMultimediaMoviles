@@ -26,6 +26,9 @@ public class MainClass {
 
         Curso.mostrarTotalCursos();
 
+        e1.esMayorEdad();
+        e3.esMayorEdad();
+
     }
 
 }
