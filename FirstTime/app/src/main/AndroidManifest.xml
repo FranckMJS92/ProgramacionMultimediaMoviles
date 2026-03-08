@@ -12,7 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstTime">
         <activity
-            android:name=".MainActivity2"
+            android:name=".ItemProductoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgresoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VolumenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecursosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GaleriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreferenciasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -22,6 +43,18 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".PerfilUsuarioActivity"
+            android:exported="false">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
         </activity>
     </application>
 

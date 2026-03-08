@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:android:padding="24dp"
+    >
+
+    <Switch
+        android:id="@+id/switch_notificaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_notificaciones"
+        android:checked="true"
+        android:layout_marginBottom="16dp"
+        />
+
+    <CheckBox
+        android:id="@+id/chk_modo_oscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activar modo oscuro"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_idioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rg_espanol"
+            android:text="Español"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rg_ingles"
+            android:text="Ingles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rg_frances"
+            android:text="Frances"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+</LinearLayout>
