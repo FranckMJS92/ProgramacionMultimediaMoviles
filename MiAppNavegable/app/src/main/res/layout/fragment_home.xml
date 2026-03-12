@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/fragment_home.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Titulo de bioenvenida -->
+   <TextView
+       android:id="@+id/txtBienvenida"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="¡Bienvenido a MiAppNavegable"
+       android:textSize="24sp"
+       android:textStyle="bold"
+       android:textAlignment="center"/>
+
+    <!-- Texto descriptivo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Esta  es la pantalla de inicio (HomeFragment)."
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+    <!-- Boton para navegar el detalle -->
+    <Button
+        android:id="@+id/btnDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Ver Detalle"/>
+</LinearLayout>
