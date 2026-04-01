@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PerfilApp</string>
+    <string name="titulo_registro">Crea tu Perfil</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hobby_deportes">Deportes</string>
+    <string name="hobby_musica">Música</string>
+    <string name="hobby_tecnologia">Tecnología</string>
+    <string name="btn_crear_perfil">Crear Perfil</string>
+    <string name="btn_ajustes">Ajustes</string>
+    <string name="btn_volver">Volver</string>
+    <string name="btn_guardar_volver">Guardar y Volver</string>
+    <string name="titulo_ajustes">Ajustes</string>
+    <string name="edad">Edad</string>
+    <string name="hobby">Hobby</string>
+    <string name="switch_notificaciones">Notificaciones</string>
+    <string name="switch_modo_oscuro">Modo Oscuro</string>
+    <string name="checkbox_recordar">Recordar sesión</string>
+    <string name="tamano_texto">Tamaño de texto</string>
+</resources>
